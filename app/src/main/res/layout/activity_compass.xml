@@ -13,39 +13,34 @@
     <ImageView
         android:id="@+id/compass_img"
         android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="193dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="193dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="447dp"
+        android:layout_marginTop="128dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/compass_img" />
 
     <TextView
         android:id="@+id/textViewCompass"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="72dp"
-        android:text="Heading: 0.0"
-        android:textSize="20sp"
+        android:layout_marginTop="64dp"
+        android:text="0°"
+        android:textAlignment="center"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="current: 0.0"
-        android:textSize="20sp"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="137dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewCompass" />
+        app:srcCompat="@drawable/cheese_img" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
